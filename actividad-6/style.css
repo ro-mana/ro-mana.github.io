@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Inter:wght@200&display=swap');
+
+html,body{background-color:cornsilk; 
+margin:1em; 
+height:100%;
+font-family: 'Inter', sans-serif}
+
+h1{font-family: 'Fredericka the Great', cursive; 
+font-size: 36pt; 
+text-shadow: 1px 1px rgb(218, 129, 151);}
+
+.main-title{text-align: center; 
+padding-top: 3;
+margin-top: 3; 
+color:rgb(107, 58, 58);}
+
+h2{font-weight: bold; 
+font-size: 12pt; 
+padding-bottom: 10pt; 
+text-align: center; 
+color: rgb(156, 92, 92); 
+text-decoration: underline}
+
+p{font-size: larger;}
+
+.container {justify-content: space-around;}
+
+.card {text-align: center; background-color:cornsilk; border-width: 2px; align-items: center;}
+.card-title {text-transform: capitalize; 
+font-weight: bold;}
+.btn-primary {background-color: crimson; 
+border-color: crimson;}
+
+.footer {margin:4pt; 
+margin-bottom:5pt; 
+transform:rotate(-5deg); 
+font-weight: bold; 
+font-family: 'Fredericka the Great', cursive; 
+font-size:16pt; 
+color: crimson;
+text-transform: uppercase;
+text-decoration: underline wavy;
+background-color: rgb(241, 220, 191);}
